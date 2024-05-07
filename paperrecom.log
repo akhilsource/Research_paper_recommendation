@@ -1,0 +1,9 @@
+werkzeug - WARNING -  * Debugger is active!
+werkzeug - INFO -  * Debugger PIN: 117-170-671
+werkzeug - INFO - 127.0.0.1 - - [02/May/2024 14:18:31] "GET / HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [02/May/2024 14:18:31] "GET /static/css/header.png HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [02/May/2024 14:18:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+werkzeug - INFO - 127.0.0.1 - - [02/May/2024 14:29:20] "GET /process?query=machine+learning HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [02/May/2024 14:29:20] "[36mGET /static/css/header.png HTTP/1.1[0m" 304 -
+werkzeug - INFO - 127.0.0.1 - - [02/May/2024 14:29:42] "GET /similar/3 HTTP/1.1" 200 -
+werkzeug - INFO - 127.0.0.1 - - [02/May/2024 14:29:42] "[36mGET /static/css/header.png HTTP/1.1[0m" 304 -

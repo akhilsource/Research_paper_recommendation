@@ -1,0 +1,6 @@
+gunicorn==19.6.0
+Flask-Babel==1.0.0
+Flask-Table==0.5.0
+Flask-Bootstrap==3.3.7.1
+flask==2.2.2
+Werkzeug==2.3.7

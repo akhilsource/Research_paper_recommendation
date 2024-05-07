@@ -1,0 +1,27 @@
+{% extends "bootstrap/base.html" %} {% block content %}
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-12">
+            <h2 class="text-center">Recommended Papers</h2>
+            <hr>
+        </div>
+    </div>
+    <div class="row">
+        {% for index, row in table.items %}
+        <div class="col-lg-4">
+            <div class="card mb-4">
+                <div class="card-body">
+                    <h4 class="card-title">{{ row['Title of Paper'] }}</h4>
+                    <h6 class="card-subtitle mb-2 text-muted">{{ row['Authors'] }}</h6>
+                    <p class="card-text">{{ row['Limited Abstract'] }}</p>
+                    <a href="{{ url_for('showDetails', index=index) }}" class="btn btn-primary">View Details</a>
+                    <a href="{{ url_for('showSimilar', index=index) }}" class="btn btn-secondary">Show Similar</a>
+                </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+{% endblock %}
